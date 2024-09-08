@@ -1,0 +1,42 @@
+.skills-container {
+  background-color: #28292d; 
+  color: #fff; 
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #333; 
+  color: white; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.skills-table th,
+.skills-table td {
+  padding: 10px;
+  text-align: center; 
+}
+
+.skills-table th {
+  background-color: #555; 
+  border-bottom: 2px solid #777; 
+}
+
+.skills-table td {
+  border-bottom: 1px solid #444; 
+}
+
+.skills-table tr:nth-child(even) {
+  background-color: #28292d;
+}
+
+.skills-table tr:hover {
+  background-color: #555; 
+}
+
+.skills-table .skill-level {
+  font-weight: bold;
+}

@@ -1,0 +1,49 @@
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #28292d;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  
+  #portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  #portfolio div {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: #32343d;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: white;
+  }
+  
+  #portfolio h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  #portfolio p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  #portfolio a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #portfolio a:hover {
+    text-decoration: underline;
+  }
+  
