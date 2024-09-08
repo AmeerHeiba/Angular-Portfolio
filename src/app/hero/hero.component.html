@@ -1,9 +1,9 @@
-<!-- hero.component.html -->
-<section class="hero-section">
+<section class="hero-section py-5" style="background-color: #32343d; color: #f8f9fa;">
+  <div class="container text-center">
     <div class="hero-content">
-        <img src="assets/images/profile.jpeg" alt="Developer Photo" class="developer-photo">
+      <img [src]="imagelink" alt="Developer Photo" class="developer-photo rounded-circle mb-4" style="border: 2px solid #f8f9fa;">
       <h1 class="developer-name">{{name}}</h1>
       <h2 class="job-title">{{jobTitle}}</h2>
     </div>
-  </section>
-  
+  </div>
+</section>

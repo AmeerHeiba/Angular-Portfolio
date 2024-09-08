@@ -1,17 +1,26 @@
-<footer id="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <input type="email" placeholder="Your Email">
-      <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Send</button>
-    </form>
-    <div class="social-media">
-      <a href="https://github.com/AmeerHeiba/" target="_blank" class="social-icon">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/ameer-heiba/" target="_blank" class="social-icon">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
+<footer id="contact" class="py-5" style="background-color: #32343d; color: #f8f9fa;">
+  <div class="container">
+    <div class="text-center">
+      <h2>Contact Me</h2>
     </div>
+    <div class="row">
+      <div class="col-12 col-md-8 offset-md-2">
+        <form class="mb-4">
+          <input type="email" placeholder="Your Email" class="form-control mb-3" style="background-color: #44454f; color: #f8f9fa; border: none;">
+          <textarea placeholder="Your Message" class="form-control mb-3" style="background-color: #44454f; color: #f8f9fa; border: none;"></textarea>
+          <button type="submit" class="btn btn-dark btn-block">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="text-center">
+      <div class="social-media">
+        <a [href]="github" target="_blank" class="social-icon mr-2">
+          <i class="fab fa-github" style="color: #f8f9fa;"></i>
+        </a>
+        <a [href]="linkedin" target="_blank" class="social-icon">
+          <i class="fab fa-linkedin-in" style="color: #f8f9fa;"></i>
+        </a>
+      </div>
+    </div>
+  </div>
 </footer>
-  

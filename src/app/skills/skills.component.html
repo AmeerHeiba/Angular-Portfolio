@@ -1,17 +1,18 @@
-<div class="skills-container">
-  <h2>Skills</h2>
-  <table class="skills-table">
-    <thead>
-      <tr>
-        <th>Skill</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let skill of skills">
-        <td>{{ skill.name }}</td>
-        <td>{{ skill.description }}</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<section id="skills" class="py-5 skills-container" style="background-color: #32343d; color: #f8f9fa;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h2>Skills</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let skill of skills">
+        <div class="progress mb-3" style="background-color: #44454f;">
+          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" [style.width]="skill.level + '%'" [attr.aria-valuenow]="skill.level" aria-valuemin="0" aria-valuemax="100" style="background-color: #007bff;">
+            {{ skill.name }} ({{ skill.level }}%)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

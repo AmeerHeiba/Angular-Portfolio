@@ -1,8 +1,18 @@
-<section id="about">
-    <h2>About Me</h2>
-    <p>{{bio}}</p>
-    <p>{{education}}</p>
-    <p>{{experience}}</p>
-    <button (click)="downloadCV()">Download CV</button>
-</section>
+<section id="about" class="py-5" style="background-color: #32343d; color: #f8f9fa;">
+    <div class="container">
+      <div class="text-center">
+        <h2>About Me</h2>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-8 offset-md-2">
+          <p>{{bio}}</p>
+          <p>{{education}}</p>
+          <p>{{experience}}</p>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <button class="btn btn-primary" (click)="downloadCV()">Download CV</button>
+      </div>
+    </div>
+  </section>
   

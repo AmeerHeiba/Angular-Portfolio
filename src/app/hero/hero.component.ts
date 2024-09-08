@@ -10,5 +10,6 @@ import { Component } from '@angular/core';
 export class HeroComponent {
   name = 'Ameer Heiba';
   jobTitle = 'MERN | MEAN Stack Developer';
+  imagelink = "assets/images/profile.jpeg";
 }
 
